@@ -1,17 +1,76 @@
-# vision_uploader
+## 🍷 Wine Label Scanner
 
-A new Flutter project.
+### Overview
 
-## Getting Started
+**Wine Label Scanner** is a sleek Flutter app that allows users to upload images of wine labels and send them to a remote server for processing. With a modern dark-themed UI and robust upload handling, it's built for speed, clarity, and smooth UX.
 
-This project is a starting point for a Flutter application.
+### ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+* 📷 Pick an image from camera or gallery
+* 🌐 Configure the server URL in settings
+* 🚀 Upload wine label to `/upload` endpoint
+* 🧠 Real-time status feedback with animations
+* 💾 Persistent server settings using `SharedPreferences`
+* 🌑 Elegant Material 3 dark mode theme
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Vision-Uploader
+### ⚙️ Technologies Used
+
+* Flutter + Dart
+* `image_picker`
+* `http`
+* `shared_preferences`
+* Material Design 3
+
+---
+
+### 🛠 Getting Started
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/yourusername/wine-label-scanner.git
+   cd wine-label-scanner
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the app**
+
+   ```bash
+   flutter run
+   ```
+
+---
+
+### 🔧 Configuration
+
+To set the backend server:
+
+1. Tap the ⚙️ Settings icon in the app.
+2. Enter your server’s base URL (e.g., `http://192.168.1.42:5000`).
+3. Save it — the app will append `/upload` automatically.
+
+---
+
+### 🧪 Development Notes
+
+* Upload timeout is set to 60 seconds.
+* Filename is dynamically generated based on timestamp.
+* All user feedback is animated and localized in the app for better UX.
+
+---
+
+### 📂 File Structure Highlights
+
+* `main.dart`: Entry point with theme, routing, and UI.
+* `ImageUploader`: Main screen to pick/upload images.
+* `SettingsScreen`: Configurable server endpoint with validation.
+
+---
+
