@@ -6,7 +6,7 @@
 
 ### Screenshot
 
-<img width="506" height="932" alt="image" src="https://github.com/user-attachments/assets/998ba9f5-0450-4e5a-81c3-db43b2e2e4cf" />
+<img width="253" height="466" alt="image" src="https://github.com/user-attachments/assets/998ba9f5-0450-4e5a-81c3-db43b2e2e4cf" />
 
 
 ### ✨ Features
