@@ -4,6 +4,11 @@
 
 **Wine Label Scanner** is a sleek Flutter app that allows users to upload images of wine labels and send them to a remote server for processing. With a modern dark-themed UI and robust upload handling, it's built for speed, clarity, and smooth UX.
 
+### Screenshot
+
+<img width="506" height="932" alt="image" src="https://github.com/user-attachments/assets/998ba9f5-0450-4e5a-81c3-db43b2e2e4cf" />
+
+
 ### ✨ Features
 
 * 📷 Pick an image from camera or gallery
